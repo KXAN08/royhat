@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="script.js"></script>
+    <title>O'quvchilar Ro'yxati</title>
+</head>
+<body class="p-6 bg-gray-100">
+
+    <h1 class="text-2xl font-bold mb-4">O'quvchilar Ro'yxati</h1>
+
+    <div class="bg-white p-4 shadow rounded mb-4">
+        <input type="text" id="name" placeholder="Ism" class="border p-2 rounded w-full mb-2">
+        <input type="text" id="surname" placeholder="Familiya" class="border p-2 rounded w-full mb-2">
+        <input type="number" id="ball" placeholder="Ball" class="border p-2 rounded w-full mb-2">
+        
+        <button onclick="addStudent()" class="bg-blue-500 text-white px-4 py-2 rounded w-full">O'quvchi Qo'shish</button>
+    </div>
+
+    <div id="students" class="bg-white p-4 shadow rounded"></div>
+
+</body>
+</html>
